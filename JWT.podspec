@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   #s.osx.exclude_files = 'JWT/**/*JWTAlgorithmRS*.{h,m}'
   s.requires_arc = true
   s.framework    = 'Security'
-  s.dependency 'Base64', :git => 'https://github.com/tophatmonocle/Base64', :branch => 'spm-support'
+  s.dependency 'Base64', '~> 1.1.2'
 end
